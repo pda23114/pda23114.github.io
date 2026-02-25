@@ -7,8 +7,8 @@
    <a-scene background="color: cadetblue" physics>
   <a-plane static-body height="100" width="100" rotation="-90 0 0"></a-plane>
 
-  <a-box dynamic-body position="1 5 -6" color="firebrick" scale="2 1 1"></a-box>
-  <a-box dynamic-body position="-2 3 -6" color="firebrick"></a-box>
+ <a-box dynamic-body="angularDamping: 1" position="1 5 -6" color="firebrick" scale="2 1 1"></a-box>
+<a-box dynamic-body="angularDamping: 1" position="-2 3 -6" color="firebrick" scale="2 1 1"></a-box>
 
   <a-entity camera="zoom: 1.5" position="0 1.6 0" wasd-controls="" rotation="" look-controls="" aframe-injected="" data-aframe-inspector-original-camera=""></a-entity>
     <a-sphere static-body position="0 -1 -1" scale="0.5 0.5 0.5" color="gray"></a-sphere>
